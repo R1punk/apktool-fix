@@ -10,7 +10,7 @@ apt autoremove -y >/dev/null 2>&1
 sleep 2
 wget --no-check-certificate "https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool" -O /usr/local/bin/apktool && chmod +x /usr/local/bin/apktool
 sleep 1
-#wget --no-check-certificate "https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.6.1.jar" -O /usr/local/bin/apktool.jar && chmod +x /usr/local/bin/apktool.jar
+wget --no-check-certificate "https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.6.1.jar" -O /usr/local/bin/apktool.jar && chmod +x /usr/local/bin/apktool.jar
 echo "Apktool Siap Di Gunakan"
 
 #echo "Apktool Belum Di Install"
